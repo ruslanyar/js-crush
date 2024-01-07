@@ -51,8 +51,8 @@ export default class Candy {
     this.#element = this.#getElement();
     this.#element.setAttribute('draggable', true);
     this.#element.setAttribute('id', this.#id);
-    this.#element.setAttribute('data-color', this.#color[0]);
-    this.#element.classList.add(this.#color[1]);
+    this.#element.setAttribute('data-color', this.#color);
+    this.#element.classList.add(this.#color);
     this.#addEventListeners();
     return this.#element;
   }

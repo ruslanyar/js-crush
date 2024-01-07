@@ -1,11 +1,11 @@
 const SIZE = 8;
 const COLORS = [
-  ['red', 'bg-red-500'],
-  ['orange', 'bg-orange-500'],
-  ['yellow', 'bg-yellow-500'],
-  ['green', 'bg-green-500'],
-  ['blue', 'bg-blue-500'],
-  ['purple', 'bg-purple-500'],
+  'bg-red-500',
+  'bg-orange-500',
+  'bg-yellow-500',
+  'bg-green-500',
+  'bg-blue-500',
+  'bg-purple-500',
 ];
 
 export { COLORS, SIZE };
