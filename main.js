@@ -14,7 +14,7 @@ import {
   drop,
 } from './src/utils/event-handlers';
 
-const board = new Board({
+export const board = new Board({
   size: SIZE,
   contentSelector: '#board',
   containerSelector: '#container',

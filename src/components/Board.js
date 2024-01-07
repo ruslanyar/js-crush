@@ -43,4 +43,8 @@ export default class Board {
     let board = this.#createBoard();
     containerElement.appendChild(board);
   }
+
+  get candysList() {
+    return this.#candys;
+  }
 }
