@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <!-- Head -->
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/candy.svg" />
@@ -8,5 +9,17 @@
     <title>Candy Crush</title>
     <script type="module" src="/main.js" defer></script>
   </head>
-  <body></body>
+
+  <!-- Body -->
+  <body id="page" class="m-1">
+    <main id="container"></main>
+  </body>
+
+  <!-- Templates -->
+  <template id="board-template">
+    <div id="board" class="flex flex-wrap h-160 w-160"></div>
+  </template>
+  <template id="candy-template">
+    <div class="candy h-20 w-20"></div>
+  </template>
 </html>
